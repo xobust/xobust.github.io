@@ -1,0 +1,10 @@
+
+
+HTML, Body {
+    background-color: darkblue;
+}
+
+.round {
+    border-radius: 50%;
+    border: 1px solid #FFF;
+}
