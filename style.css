@@ -4,11 +4,8 @@ HTML, Body {
     background-color: #34495e;
     color: black;
     font-family: sans-serif;
-}
-
-.content {
     margin: auto;
-    width: 700px;
+    max-width: 700px;
 }
 
 div[role="main"]
@@ -16,7 +13,7 @@ div[role="main"]
     background-color: #ecf0f1;
     border-radius: 15px;
     border: 2px solid #bdc3c7;
-    padding: 20px;
+    padding: 25px;
 
     font-size: 18px;
 }
@@ -24,4 +21,16 @@ div[role="main"]
 .round {
     border-radius: 50%;
     border: 2px solid #FFF;
+}
+
+.social
+{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.social>a>img
+{
+    margin-left: 10px;
+    width: 30%;
 }
