@@ -29,6 +29,16 @@ div[role="main"]
     margin-top: 10px;
 }
 
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f1c40f;
+}
+
+
 .social>a>img
 {
     margin-left: 10px;
